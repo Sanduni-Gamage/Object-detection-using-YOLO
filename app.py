@@ -57,7 +57,11 @@ confidence = st.sidebar.slider(
     help="Only show detections above this confidence"
 )
 
-
+iou_threshold = st.sidebar.slider(
+    "IoU Threshold (NMS)",
+    min_value=0.1, max_value=1.0, value=0.45, step=0.05,
+    help="Non-Maximum Suppression threshold"
+)
 
 model = load_model(model_size)
 all_classes = list(model.names.values())
