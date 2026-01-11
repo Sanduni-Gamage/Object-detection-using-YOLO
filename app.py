@@ -101,7 +101,7 @@ def apply_preprocessing(image: Image.Image) -> Image.Image:
     """Apply brightness / contrast / sharpness adjustments."""
     if brightness != 1.0:
         image = ImageEnhance.Brightness(image).enhance(brightness)
-    if contrast != 1.0:
+    if contrast != 2.0:
         image = ImageEnhance.Contrast(image).enhance(contrast)
     if sharpness != 1.0:
         image = ImageEnhance.Sharpness(image).enhance(sharpness)
