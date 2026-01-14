@@ -363,7 +363,7 @@ with tab_video:
 
     video_file = st.file_uploader(
         "Upload a video",
-        type=["mp4", "avi", "mov"],
+        type=["mp4", "avi", "mov", "mkv"],
         key="video_uploader"
     )
 
