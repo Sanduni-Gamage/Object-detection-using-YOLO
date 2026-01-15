@@ -486,5 +486,5 @@ st.markdown("---")
 st.markdown(
     "Built with [YOLOv8](https://github.com/ultralytics/ultralytics) + "
     "[Streamlit](https://streamlit.io) | "
-    "[GitHub](https://github.com/GamithaManawadu)"
+    "[GitHub](https://github.com/Sanduni-Gamage)"
 )
